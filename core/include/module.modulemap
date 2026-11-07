@@ -1,0 +1,6 @@
+// Exposes CoreAPI (and only CoreAPI) to Swift.
+module JRBCore {
+    header "jrb/api/CoreAPI.hpp"
+    requires cplusplus
+    export *
+}
